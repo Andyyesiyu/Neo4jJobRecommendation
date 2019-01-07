@@ -42,7 +42,7 @@ CREATE
 
 在Neo4j数据库中可视化结果如下（个别关系有可能有所差别，原因为后文的相关操作）：
 
-![初始数据可视化](https://github.com/Andyyesiyu/Neo4jJobRecommendation/image/initdata.jpg)
+![初始数据可视化](https://github.com/Andyyesiyu/Neo4jJobRecommendation/blob/master/image/initdata.jpg)
 
 ## 筛选员工的几种方法
 以下将详细演示多种社交网络算法在本案例中的实现。
