@@ -135,7 +135,7 @@ RETURN candidate AS Candidate, toFloat(reco) AS Recommendation
 ### 1. 项目结构
 项目结构为IDEA标准生成的Spring Boot项目结构，为了Demo演示，只选取数据库中部分的节点和关系进行读取，详细项目结构如下图所示：
 
-![后端项目结构](https://github.com/Andyyesiyu/Neo4jJobRecommendation/src/main/resources/public/image/springstruc.jpg)
+![后端项目结构](https://github.com/Andyyesiyu/Neo4jJobRecommendation/blob/master/src/main/resources/public/image/springstruc.jpg)
 
 ### 2. Domain设计
 Domain部分较为简单，对于节点各属性进行初始化，并加上适当的annotation即可。对于节点中的关系也如法炮制。选取部分代码如下：
@@ -279,16 +279,16 @@ public class htmlController {
 
 对于前端页面，由于国内Neo4j中文资源较少，因此我希望能够做一个把此次项目详细介绍的前端页面，覆盖以上及以下的所有论文内容。首先，可以使用Hexo搭建一个博客模版平台，随后在博客生成端页面中进行一定的定制化处理，从而解决静态模版的一些局限性，例如于后段交互等。前段网站架构如下所示：
 
-![前端项目结构](https://github.com/Andyyesiyu/Neo4jJobRecommendation/src/main/resources/public/image/frontendstruc.jpg)
+![前端项目结构](https://github.com/Andyyesiyu/Neo4jJobRecommendation/blob/master/src/main/resources/public/image/frontendstruc.jpg)
 
 界面截图如下所示：
-![文字显示](https://github.com/Andyyesiyu/Neo4jJobRecommendation/src/main/resources/public/image/front1.jpg)
+![文字显示](https://github.com/Andyyesiyu/Neo4jJobRecommendation/blob/master/src/main/resources/public/image/front1.jpg)
 
-![代码显示](https://github.com/Andyyesiyu/Neo4jJobRecommendation/src/main/resources/public/image/front2.jpg)
+![代码显示](https://github.com/Andyyesiyu/Neo4jJobRecommendation/blob/master/src/main/resources/public/image/front2.jpg)
 
-![demo展示1](https://github.com/Andyyesiyu/Neo4jJobRecommendation/src/main/resources/public/image/front3.jpg)
+![demo展示1](https://github.com/Andyyesiyu/Neo4jJobRecommendation/blob/master/src/main/resources/public/image/front3.jpg)
 
-![demo展示2](https://github.com/Andyyesiyu/Neo4jJobRecommendation/src/main/resources/public/image/front4.jpg)
+![demo展示2](https://github.com/Andyyesiyu/Neo4jJobRecommendation/blob/master/src/main/resources/public/image/front4.jpg)
 
 ### 前后端连接
 
